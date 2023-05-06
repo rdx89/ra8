@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+background:url("/img/rdx000.png");
+}
+
+#login-form {
+  text-align: center;
+  margin-top: 220px;
+}
+
+#content {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  padding: 11px;
+  color: deeppink;
+  margin-right: 20px;
+}
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid hotpink;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: chocolate;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff80b;
+}
+
+h1, p {
+  color: red;
+}
